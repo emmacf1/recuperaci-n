@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header, footer {
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+nav, section, aside {
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+
+nav {
+    flex: 1;
+}
+
+section {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+}
